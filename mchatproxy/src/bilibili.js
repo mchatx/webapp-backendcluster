@@ -2,6 +2,7 @@ const axios = require('axios');
 const request = require('request');
 const puppeteer = require('puppeteer');
 const { KeepLiveWS } = require('bilibili-live-ws');
+const Config = require('../../Config/Config.json');
 
 const HeaderPrivate = {
   "Content-Type": "text/event-stream",

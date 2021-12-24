@@ -12,6 +12,7 @@ const express = require("express")
 const cors = require('cors')
 const bodyParser = require("body-parser")
 const compression = require('compression');
+const Config = require('../Config/Config.json');
 
 const PORT = process.env.PORT || 31023
 const app = express()
