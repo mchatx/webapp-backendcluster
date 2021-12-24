@@ -1,0 +1,15 @@
+{
+    "apps" : [{
+      "name"        : "ChatProxy",
+      "script"      : "npm run start",
+      "env": {
+        "DISPLAY": ":99"
+      }
+    },
+      {
+        "name"        : "Xvfb1",
+        "interpreter" : "none",
+        "script"      : "Xvfb",
+        "args"        : ":99"
+      }]
+  }

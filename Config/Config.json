@@ -1,0 +1,20 @@
+{
+    "FirebaseCred":"",
+    "FirebaseDBURL":"",
+
+    "MongoWriter":"",
+    "MongoReader":"",
+    "MongoLocalProxy":"",
+
+    "HolodexAPIKey":"",
+    "DeepLAPIKey":"",
+    "JWTKey":"",
+
+    "CORSOrigin":"",
+
+    "ReservedChannel": {
+        "YT": [],
+        "TW": [],
+        "TC": []
+    }
+}
