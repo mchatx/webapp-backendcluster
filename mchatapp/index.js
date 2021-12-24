@@ -45,7 +45,7 @@ const headersLocked = {
   }
   
 
-const PORT = process.env.PORT || 2434;
+const PORT = Config.MainPort;
 const app = express()
 app.use(bodyParser.json( { limit: '30mb'} ))
 app.use(bodyParser.urlencoded({ extended: true, limit: '30mb' }))

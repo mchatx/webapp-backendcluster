@@ -16,5 +16,9 @@
         "YT": [],
         "TW": [],
         "TC": []
-    }
+    },
+
+    "MainPort": 2434,
+    "ProxyPort": 31023,
+    "SyncPort": 31000
 }

@@ -4,7 +4,7 @@ const bodyParser = require("body-parser");
 const crypto = require("crypto");
 const Config = require("../Config/Config.json");
 
-const PORT = process.env.PORT || 31000
+const PORT = Config.SyncPort
 const app = express()
 app.use(bodyParser.json( { limit: '5mb'} ))
 app.use(bodyParser.urlencoded({ extended: true, limit: '5mb' }))

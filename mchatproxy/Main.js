@@ -14,7 +14,7 @@ const bodyParser = require("body-parser")
 const compression = require('compression');
 const Config = require('../Config/Config.json');
 
-const PORT = process.env.PORT || 31023
+const PORT = Config.ProxyPort;
 const app = express()
 app.use(bodyParser.json( { limit: '20mb'} ))
 app.use(bodyParser.urlencoded({ extended: true, limit: '20mb' }))
